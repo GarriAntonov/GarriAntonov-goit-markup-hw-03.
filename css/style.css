@@ -1,0 +1,213 @@
+:root {
+  --main-bg-color: #fff;
+  --color-one: #757575;
+  --color-two: #212121;
+  --color-three: #2196f3;
+  --color-four: #2f303a;
+  --color-five: #000;
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--color-one);
+  background-color: var(--main-bg-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--color-five);
+}
+
+.logo-web {
+  color: var(--color-three);
+}
+
+.nav-link {
+  color: var(--color-two);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.current-page {
+  color: var(--color-three);
+}
+
+.top-nav a:hover,
+.top-nav a:focus {
+  color: var(--color-three);
+}
+
+.header-contacts a {
+  color: var(--color-one);
+  font-weight: 500;
+}
+
+.header-contacts a:hover,
+.header-contacts a:focus {
+  color: var(--color-three);
+}
+
+.hero {
+  background-color: var(--color-four);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-bg-color);
+}
+
+.advantages-text {
+  line-height: 1.7;
+}
+
+.hero button {
+  background-color: var(--color-three);
+  color: var(--main-bg-color);
+  cursor: pointer;
+}
+
+.advantages {
+  background-color: var(--main-bg-color);
+}
+
+.advantages h1 {
+  display: none;
+}
+
+.advantages-title {
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--color-two);
+}
+
+.advantages p {
+  line-height: 1.7;
+}
+
+.our-activities-title {
+  color: var(--color-two);
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--color-two);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--color-two);
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--color-one);
+}
+
+.footer {
+  background-color: var(--color-four);
+}
+
+.footer .logo {
+  color: var(--main-bg-color);
+}
+
+.footer-adress {
+  font-style: normal;
+  line-height: 1.7;
+  color: var(--main-bg-color);
+}
+
+.footer-adress:hover,
+.footer-adress:focus {
+  color: var(--color-three);
+}
+
+.footer-mail,
+.footer-tel {
+  font-style: normal;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--color-three);
+}
+
+/* друга сторінка сайту */
+
+.work h1 {
+  display: none;
+}
+
+.filters-button {
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--color-two);
+  cursor: pointer;
+}
+
+.filters-button:hover,
+.filters-button:focus {
+  color: var(--main-bg-color);
+  background-color: var(--color-three);
+}
+
+.current-filter {
+  color: var(--main-bg-color);
+  background-color: var(--color-three);
+}
+
+.gallery-item-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-two);
+}
+
+.gallery-item-desc {
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--color-one);
+}
