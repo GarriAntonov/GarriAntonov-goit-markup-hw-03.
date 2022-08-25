@@ -65,8 +65,14 @@ ul {
   border: 1px solid transparent;
 }
 
+.container-main-nav {
+  display: flex;
+  align-items: center;
+}
+
 .top-nav {
   display: flex;
+  margin-left: 93px;
 }
 
 .top-nav list .nav-link {
@@ -93,8 +99,17 @@ ul {
   color: var(--color-three);
 }
 
-.header-contacts li {
+.header-contacts {
   display: flex;
+  margin-left: auto;
+}
+
+.header-contacts li {
+  margin-right: 50px;
+}
+
+.header-contacts li:last-child {
+  margin-right: 0px;
 }
 
 .header-contacts a {
