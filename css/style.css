@@ -17,8 +17,27 @@ body {
   background-color: var(--main-bg-color);
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .link {
@@ -42,6 +61,8 @@ body {
 
 .logo-web {
   color: var(--color-three);
+  width: 145px;
+  border: 1px solid transparent;
 }
 
 .nav-link {
@@ -71,20 +92,24 @@ body {
 }
 
 .hero {
+  margin-bottom: 0;
   background-color: var(--color-four);
+  text-align: center;
 }
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 40px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-bg-color);
 }
 
 .advantages-text {
+  margin-bottom: 118px;
   line-height: 1.7;
 }
 
@@ -92,6 +117,11 @@ body {
   background-color: var(--color-three);
   color: var(--main-bg-color);
   cursor: pointer;
+  min-width: 216px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 10px 32px;
 }
 
 .advantages {
@@ -103,21 +133,42 @@ body {
 }
 
 .advantages-title {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.2;
   text-transform: uppercase;
   color: var(--color-two);
+
+  outline: auto;
 }
 
-.advantages p {
+.advantages-text {
+  margin-top: 0;
+  margin-bottom: 118px;
+
+  outline: auto;
+}
+
+. .advantages p {
   line-height: 1.7;
 }
 
+.our-activities {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .our-activities-title {
+  padding-top: 118px;
+  padding-bottom: 50px;
   color: var(--color-two);
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
+
+  outline: auto;
 }
 
 .team {
@@ -125,13 +176,19 @@ body {
 }
 
 .team-title {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
   color: var(--color-two);
+
+  outline: auto;
 }
 
 .team-name {
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -204,6 +261,51 @@ body {
 .current-filter {
   color: var(--main-bg-color);
   background-color: var(--color-three);
+}
+
+.filters-button-usi {
+  min-width: 73px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 16px;
+  padding: 6px 25px;
+}
+
+.filters-button-web-sits {
+  min-width: 125px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 6px 22px;
+  text-align: center;
+}
+
+.filters-button-dodatki {
+  min-width: 112px;
+  border: 1px solid transparent;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 6px 22px;
+  text-align: center;
+}
+
+.filters-button-design {
+  min-width: 103px;
+  border: 1px solid transparent;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 6px 22px;
+  text-align: center;
+}
+
+.filters-button-marketing {
+  min-width: 130px;
+  border: 1px solid transparent;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 6px 22px;
+  text-align: center;
 }
 
 .gallery-item-title {
