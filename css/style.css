@@ -44,6 +44,10 @@ ul {
   text-decoration: none;
 }
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .header-main-nav {
   display: flex;
   align-items: center;
@@ -140,7 +144,6 @@ ul {
 }
 
 .advantages-text {
-  margin-bottom: 118px;
   line-height: 1.7;
 }
 
@@ -163,21 +166,32 @@ ul {
   display: none;
 }
 
-.advantages-title {
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-size: 14px;
-  line-height: 1.2;
-  text-transform: uppercase;
-  color: var(--color-two);
+.advantages .list {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-right: 0;
 }
 
-.advantages-text {
-  margin-top: 0;
-  margin-bottom: 118px;
+.advantages-title:last-child {
+  margin-right: 0px;
 }
 
-. .advantages p {
+.container .list {
+  display: flex;
+  justify-content: space-between;
+  p-bottom: 94px;
+}
+
+.advantages li {
+  width: 270px;
+  margin-right: 30px;
+}
+
+.advantages li:last-child {
+  margin-right: 0;
+}
+.advantages p {
   line-height: 1.7;
 }
 
@@ -187,8 +201,12 @@ ul {
   margin-bottom: 0;
 }
 
+.our-activities li {
+  padding-bottom: 94px;
+}
+
 .our-activities-title {
-  padding-top: 118px;
+  padding-top: 94px;
   padding-bottom: 50px;
   color: var(--color-two);
   font-size: 36px;
@@ -201,12 +219,16 @@ ul {
 }
 
 .team-title {
-  margin-top: 0;
-  margin-bottom: 0;
+  padding-top: 94px;
+  padding-bottom: 50px;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
   color: var(--color-two);
+}
+
+.team .list {
+  padding-bottom: 94px;
 }
 
 .team-name {
@@ -228,6 +250,10 @@ ul {
 
 .footer {
   background-color: var(--color-four);
+}
+
+.footer .list {
+  flex-direction: column;
 }
 
 .footer .logo {
@@ -260,6 +286,25 @@ ul {
 }
 
 /* друга сторінка сайту */
+
+.container .filters {
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.container .filters:last-child {
+  margin-right: 0;
+}
+
+.filters li {
+  margin-right: 8px;
+}
+
+.filters li:last-child {
+  margin-right: 0;
+}
 
 .work h1 {
   display: none;
@@ -329,6 +374,22 @@ ul {
   border-radius: 4px;
   padding: 6px 22px;
   text-align: center;
+}
+
+.container .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 94px;
+  justify-content: space-between;
+}
+
+.gallery li {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.gallery li:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
 
 .gallery-item-title {
