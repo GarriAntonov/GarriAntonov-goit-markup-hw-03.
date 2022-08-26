@@ -44,11 +44,15 @@ ul {
   text-decoration: none;
 }
 
+.header-main-nav {
+  display: flex;
+  align-items: center;
+}
+
 .container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--main-bg-color);
 }
 
 .logo {
@@ -63,11 +67,6 @@ ul {
   color: var(--color-three);
   width: 145px;
   border: 1px solid transparent;
-}
-
-.container-main-nav {
-  display: flex;
-  align-items: center;
 }
 
 .top-nav {
@@ -123,7 +122,7 @@ ul {
 }
 
 .hero {
-  margin-bottom: 0;
+  display: block;
   background-color: var(--color-four);
   text-align: center;
 }
@@ -137,6 +136,7 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-bg-color);
+  text-align: center;
 }
 
 .advantages-text {
@@ -207,8 +207,6 @@ ul {
   line-height: 1.2;
   text-align: center;
   color: var(--color-two);
-
-  outline: auto;
 }
 
 .team-name {
