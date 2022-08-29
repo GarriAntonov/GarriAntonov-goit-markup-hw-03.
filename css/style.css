@@ -212,6 +212,7 @@ ul {
 
 .our-activities {
   text-align: center;
+  padding-top: 0;
 }
 
 .our-activities .list {
@@ -244,7 +245,7 @@ ul {
 }
 
 .team-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
@@ -278,7 +279,16 @@ ul {
 }
 
 .footer .list {
+  margin-bottom: 9px;
   flex-direction: column;
+}
+
+.footer .list li {
+  margin-bottom: 9px;
+}
+
+.footer .list li:last-child {
+  margin-bottom: 0;
 }
 
 .footer .logo {
@@ -354,12 +364,12 @@ ul {
 }
 
 .filters-button-usi {
-  min-width: 73px;
   border: 1px solid transparent;
   border-radius: 4px;
   text-align: center;
   font-size: 16px;
   padding: 6px 25px;
+  height: 38px;
 }
 
 .filters-button-web-sits {
@@ -369,6 +379,7 @@ ul {
   font-size: 16px;
   padding: 6px 22px;
   text-align: center;
+  height: 38px;
 }
 
 .filters-button-dodatki {
@@ -378,6 +389,7 @@ ul {
   border-radius: 4px;
   padding: 6px 22px;
   text-align: center;
+  height: 38px;
 }
 
 .filters-button-design {
@@ -387,6 +399,7 @@ ul {
   border-radius: 4px;
   padding: 6px 22px;
   text-align: center;
+  height: 38px;
 }
 
 .filters-button-marketing {
@@ -396,21 +409,32 @@ ul {
   border-radius: 4px;
   padding: 6px 22px;
   text-align: center;
+  height: 38px;
+}
+
+.filters button {
+  cursor: pointer;
+}
+
+.filters button:hover,
+.filters button:focus {
+  color: var(--main-bg-color);
+  background-color: var(--color-three);
 }
 
 .container .gallery {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
   justify-content: space-between;
 }
 
 .gallery li {
   margin-bottom: 30px;
   border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
-.gallery-item {
+.gallery list .gallery-item {
   padding: 20px 24px;
 }
 
