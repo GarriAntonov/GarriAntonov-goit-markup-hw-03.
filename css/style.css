@@ -5,6 +5,7 @@
   --color-three: #2196f3;
   --color-four: #2f303a;
   --color-five: #000;
+  --color-six: #eeeeee;
   --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
 }
@@ -78,7 +79,7 @@ ul {
   padding: 24px 0;
 }
 
-.header-main-nav {
+.header .container {
   display: flex;
   align-items: center;
 }
@@ -103,10 +104,14 @@ ul {
 }
 
 .top-nav .nav-link {
-  color: var(--color-two);
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  color: var(--color-two);
+}
+
+.header .top-nav .current-page {
+  color: var(--color-three);
 }
 
 .top-nav li {
@@ -115,10 +120,6 @@ ul {
 
 .top-nav li:last-child {
   margin-right: 0;
-}
-
-.current-page {
-  color: var(--color-three);
 }
 
 .top-nav a:hover,
@@ -142,11 +143,6 @@ ul {
 .header-contacts a {
   color: var(--color-one);
   font-weight: 500;
-}
-
-.header-contacts a:hover,
-.header-contacts a:focus {
-  color: var(--color-three);
 }
 
 .hero {
@@ -431,12 +427,11 @@ ul {
 
 .gallery li {
   margin-bottom: 30px;
-  border-bottom: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
 }
 
 .gallery-item {
   padding: 20px 24px;
+  border: 1px solid var(--color-six);
 }
 
 .gallery li:nth-last-child(-n + 3) {
